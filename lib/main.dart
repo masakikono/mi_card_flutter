@@ -8,11 +8,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
                 radius: 50.0,
@@ -33,9 +33,9 @@ class MyApp extends StatelessWidget {
                     color: Colors.teal.shade100,
                     fontWeight: FontWeight.bold,
                     fontFamily: 'Source Sans Pro',
-                    letterSpacing: 2.5),
-              ),
-              //telephone
+                    letterSpacing: 2.5
+                ),
+              ), //telephone
               SizedBox(
                 height: 20.0,
                 width: 150.0,
