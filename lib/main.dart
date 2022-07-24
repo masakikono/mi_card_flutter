@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
                     fontFamily: 'Pacifico'),
               ),
               Text(
-                ' Barista ',
+                'Barista',
                 style: TextStyle(
                     fontSize: 18,
                     color: Colors.teal.shade100,
@@ -38,10 +38,10 @@ class MyApp extends StatelessWidget {
               //telephone
               SizedBox(
                 height: 20.0,
-                  width: 150.0,
-                  child: Divider(
-                    color: Colors.teal.shade100,
-                  ),
+                width: 150.0,
+                child: Divider(
+                  color: Colors.teal.shade100,
+                ),
               ),
               Card(
                 color: Colors.white,
